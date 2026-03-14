@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Study Point</title>
+<style>
+body { font-family: Arial; text-align: center; background: #f2f2f2; }
+h1 { color: #1a73e8; }
+button { display: block; width: 85%; margin: 12px auto; padding: 14px; font-size: 18px; background: #1a73e8; color: white; border: none; border-radius: 8px; }
+</style>
+<script>
+function openPage(show, hide) {
+  document.getElementById(hide).style.display = "none";
+  document.getElementById(show).style.display = "block";
+}
+function openLink(url) {
+  window.open(url, "_blank");
+}
+</script>
+</head>
+<body>
+
+<h1>Student Study Point</h1>
+
+<div id="home">
+  <h2>Select Class</h2>
+  <button onclick="openPage('class10', 'home')">Class 10</button>
+  <button onclick="openPage('class12', 'home')">Class 12</button>
+</div>
+
+<div id="class10" style="display:none">
+  <h2>Class 10 Subjects</h2>
+  <button onclick="openPage('math10', 'class10')">Maths</button>
+  <button onclick="openPage('science10', 'class10')">Science</button>
+  <button onclick="openPage('english10', 'class10')">English</button>
+  <button onclick="openPage('hindi10', 'class10')">Hindi</button>
+  <button onclick="openPage('sst10', 'class10')">Social Science</button>
+  <button onclick="openPage('home', 'class10')">Back</button>
+</div>
+
+<div id="class12" style="display:none">
+  <h2>Select Stream</h2>
+  <button onclick="openPage('science12', 'class12')">Science</button>
+  <button onclick="openPage('arts12', 'class12')">Arts</button>
+  <button onclick="openPage('home', 'class12')">Back</button>
+</div>
+
+<!-- Example Class 10 Subject Pages -->
+<div id="math10" style="display:none">
+  <h2>Class 10 Maths</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-maths/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-maths/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'math10')">Back</button>
+</div>
+
+<div id="science10" style="display:none">
+  <h2>Class 10 Science</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-science/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-science/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'science10')">Back</button>
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Student Study Point</title>
+<style>
+body { font-family: Arial; text-align: center; background: #f2f2f2; }
+h1 { color: #1a73e8; }
+button { display: block; width: 85%; margin: 12px auto; padding: 14px; font-size: 18px; background: #1a73e8; color: white; border: none; border-radius: 8px; }
+</style>
+<script>
+function openPage(show, hide) {
+  document.getElementById(hide).style.display = "none";
+  document.getElementById(show).style.display = "block";
+}
+function openLink(url) {
+  window.open(url, "_blank");
+}
+</script>
+</head>
+<body>
+
+<h1>Student Study Point</h1>
+
+<div id="home">
+  <h2>Select Class</h2>
+  <button onclick="openPage('class10', 'home')">Class 10</button>
+  <button onclick="openPage('class12', 'home')">Class 12</button>
+</div>
+
+<div id="class10" style="display:none">
+  <h2>Class 10 Subjects</h2>
+  <button onclick="openPage('math10', 'class10')">Maths</button>
+  <button onclick="openPage('science10', 'class10')">Science</button>
+  <button onclick="openPage('english10', 'class10')">English</button>
+  <button onclick="openPage('hindi10', 'class10')">Hindi</button>
+  <button onclick="openPage('sst10', 'class10')">Social Science</button>
+  <button onclick="openPage('home', 'class10')">Back</button>
+</div>
+
+<div id="class12" style="display:none">
+  <h2>Select Stream</h2>
+  <button onclick="openPage('science12', 'class12')">Science</button>
+  <button onclick="openPage('arts12', 'class12')">Arts</button>
+  <button onclick="openPage('home', 'class12')">Back</button>
+</div>
+
+<!-- Example Class 10 Subject Pages -->
+<div id="math10" style="display:none">
+  <h2>Class 10 Maths</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-maths/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-maths/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'math10')">Back</button>
+</div>
+
+<div id="science10" style="display:none">
+  <h2>Class 10 Science</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-science/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-science/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'science10')">Back</button>
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<title>Student Study Point</title>
+<style>
+body { font-family: Arial; text-align: center; background: #f2f2f2; }
+h1 { color: #1a73e8; }
+button { display: block; width: 85%; margin: 12px auto; padding: 14px; font-size: 18px; background: #1a73e8; color: white; border: none; border-radius: 8px; }
+</style>
+<script>
+function openPage(show, hide) {
+  document.getElementById(hide).style.display = "none";
+  document.getElementById(show).style.display = "block";
+}
+function openLink(url) {
+  window.open(url, "_blank");
+}
+</script>
+</head>
+<body>
+
+<h1>Student Study Point</h1>
+
+<div id="home">
+  <h2>Select Class</h2>
+  <button onclick="openPage('class10', 'home')">Class 10</button>
+  <button onclick="openPage('class12', 'home')">Class 12</button>
+</div>
+
+<div id="class10" style="display:none">
+  <h2>Class 10 Subjects</h2>
+  <button onclick="openPage('math10', 'class10')">Maths</button>
+  <button onclick="openPage('science10', 'class10')">Science</button>
+  <button onclick="openPage('english10', 'class10')">English</button>
+  <button onclick="openPage('hindi10', 'class10')">Hindi</button>
+  <button onclick="openPage('sst10', 'class10')">Social Science</button>
+  <button onclick="openPage('home', 'class10')">Back</button>
+</div>
+
+<div id="class12" style="display:none">
+  <h2>Select Stream</h2>
+  <button onclick="openPage('science12', 'class12')">Science</button>
+  <button onclick="openPage('arts12', 'class12')">Arts</button>
+  <button onclick="openPage('home', 'class12')">Back</button>
+</div>
+
+<!-- Example Class 10 Subject Pages -->
+<div id="math10" style="display:none">
+  <h2>Class 10 Maths</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-maths-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-maths/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-maths/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'math10')">Back</button>
+</div>
+
+<div id="science10" style="display:none">
+  <h2>Class 10 Science</h2>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science/')">PDF Notes (English)</button>
+  <button onclick="openLink('https://www.learncbse.in/ncert-solutions-for-class-10-science-hindi/')">PDF Notes (Hindi)</button>
+  <button onclick="openLink('https://www.learncbse.in/mcq-questions-for-class-10-science/')">MCQ</button>
+  <button onclick="openLink('https://www.learncbse.in/cbse-sample-papers-for-class-10-science/')">Sample Paper</button>
+  <button onclick="openPage('class10', 'science10')">Back</button>
+</div>
+
+</body>
+</html>
